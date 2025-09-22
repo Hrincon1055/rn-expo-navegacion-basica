@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { LogBox } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import "./global.css";
+
 SplashScreen.preventAutoHideAsync();
 
 const RootLayout = (): React.JSX.Element | null => {
